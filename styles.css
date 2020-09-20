@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div>strong,
+div>span {
+    padding: 1.5rem 3rem;
+}
+
+hr {
+    margin: 0.25rem;
+}
+
+h1 {
+    font-family: "Monoton", Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: "Monoton", Verdana, sans-serif;
+    color: whitesmoke;
+    letter-spacing: 0.05rem;
+    width: fit-content;
+}
+
+header h1 {
+    margin-left: 1.45rem;
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+body {
+    font-family: "Montserrat", Geneva, sans-serif;
+    background: #d3d3d3;
+}
+
+footer {
+    height: 4rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #747373;
+}
+
+footer a {
+    font-size: 2rem;
+    padding: 0.25rem 1rem;
+    color: black;
+    /* align-items: center; */
+}
+
+.main-header {
+    background-image: url(night-sky-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 0 2.75rem 1rem;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0 3.1rem 0 0.75rem;
+    text-align: center;
+}
+
+.main-nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.main-nav a:hover {
+    color: #ffffff;
+    /* font-size: 1.1rem; */
+}
+
+.main-nav a:active {
+    color: #dfdfdf;
+}
+
+.content-section {
+    margin: 1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.section-header {
+    padding: 1.5rem 0;
+}
+
+.tour-date {
+    display: inline-block;
+    width: 10%;
+}
+
+.tour-loc {
+    display: inline-block;
+    width: 35%;
+}
+
+.btn {
+    padding: 0.67rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    /* border: none; */
+    /* border-radius: 0.1rem; */
+}
+
+.tour-btn {
+    display: inline-block;
+    max-width: 20%;
+}
+
+.about-img {
+    float: right;
+    padding: 0 1rem 6rem 1rem;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 40%;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.shop-item {
+    margin: 1.75rem;
+}
+
+.shop-img {
+    height: 250px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.shop-details {
+    display: flex;
+    align-items: center;
+}
+
+.cart-header {
+    border-bottom: 1px solid black;
+    font-size: 1.25rem;
+    /* margin-right: 1.5rem; */
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    margin-right: 1.5rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-item-title {
+    margin-left: 0.5rem;
+}
+
+.cart-img {
+    width: 75px;
+    height: auto;
+}
+
+.cart-price {
+    width: 20%;
+    /* padding-top: 8rem; */
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.btn-danger {
+    color: white;
+    background: #eb5757;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.btn-danger:hover {
+    background: #cc4c4c;
+}
+
+.cart-quantity-input {
+    height: 2rem;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #f1f1f1f1;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 0.75rem;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75rem;
+}
+
+i:hover {
+    color: #303030;
+}
+
+@media (max-width: 769px) {
+    .shop-container {
+        flex-wrap: wrap;
+    }
+}
